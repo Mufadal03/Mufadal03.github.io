@@ -76,14 +76,14 @@ export const Skills = () => {
      Aos.init({duration:2000})   
     },[])
     return (
-        <Flex pos={"relative"} id="Skill" h="100vh"  direction={"column"} justifyContent={"center"}alignItems="center" >
-            <Heading w="80%" m=" 5px auto" textAlign={"left"} size={"xl"}>Tools I Use</Heading>
-            <Grid data-aos="fade-left" gridTemplateColumns={"repeat(6,1fr)"} gridRowGap={"2rem"} w="80%" m="25px auto" >
+        <Flex pos={"relative"} id="Skill" minH="100vh"  direction={"column"} justifyContent={"center"}alignItems="center" >
+            <Heading w={{base:"90%",lg:"80%"}} m=" 5px auto" textAlign={"left"} size={"xl"}>Tools I Use</Heading>
+            <Grid data-aos="fade-left" gridTemplateColumns={{base:"repeat(2,1fr)",sm:"repeat(3,1fr)",md:"repeat(4,1fr)",lg:"repeat(6,1fr)"}} gridRowGap={{base:"0.5rem",md:"1rem",lg:"2rem"}} w={{base:"90%",lg:"80%"}} m="25px auto" >
                 {
                     skills.map((item) => (
                         <GridItem >
                             <VStack mb="2rem">
-                                <Image h="150px" src={item.img} />
+                                <Image h={{base:"100px",md:"120px",lg:"150px"}} src={item.img} />
                                 <Text>{ item.name}</Text>
                             </VStack>
                         </GridItem>

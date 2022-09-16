@@ -6,7 +6,7 @@ import{IoChevronDownCircleOutline} from "react-icons/io5"
 const DownArrow = ({to,Name="arrow-down"}) => {
     return (
         <Link  to={to} smooth={true} offset={-10} duration={1000}>
-            <Box className={Name}>
+            <Box display={{base:"none",md:"none",lg:"block",xl:"block"}} className={Name}>
             
             </Box>
             {/* <Icon className='bounce' h="10" w="10" as={IoChevronDownCircleOutline} /> */}

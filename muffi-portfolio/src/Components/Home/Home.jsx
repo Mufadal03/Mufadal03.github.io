@@ -23,20 +23,20 @@ export const Home = () => {
         Aos.init({duration:2000})
     },[])
     return (
-        <Box id="Home" bgColor={"#171923"} color="white">
+        <Box id="Home" bgColor={"#171923"} w="100%" color="white">
             {/* main Homepage body of the content starts to align content at the center */}
             {/* <Flex border={"2px solid"}> */}
-                <Flex alignItems={"center"} direction="column" justifyContent="center" pos={"relative"} minH="100vh"  > 
+                <Flex alignItems={"center"}  direction="column" justifyContent="center" pos={"relative"}  minH="100vh"  > 
                 {/* profile content starts */}
-                <Flex gap="2rem"  >
+                <Flex gap="2rem" direction={{ base: "column", md: "column", lg: "row" }} alignItems="center">
                     {/* image */}
-                    <Box className="Profile" bgImage={`url(${muffi})`} bgRepeat="no-repeat" bgSize="cover" bgPos={"center"} h="xs" w="xs">
+                    <Box className="Profile" bgImage={`url(${muffi})`} bgRepeat="no-repeat" bgSize="cover" bgPos={"center"} h={{base:"250px",md:"270px",lg:"320px"}} w={{base:"250px",md:"270px",lg:"320px"}}>
                     </Box>
                     {/* image */}
                     {/* name summary and social media */}
-                    <Flex direction={"column"} textAlign="left" justifyContent={"center"} gap="0.5rem">
-                        <Heading data-aos="flip-up" size={"4xl"} fontWeight="500"  className="popins">Mufadal Sadriwala</Heading>
-                        <Text color="gray.400" fontStyle={"italic"} fontSize={"xl"}>A Software Developer with a passion for solving problems and learning new things</Text>
+                    <Flex direction={"column"} textAlign="left" alignItems={"center"} justifyContent={"center"} gap="0.5rem">
+                        <Heading textAlign={{base:"center",lg:"left"}} fontSize={{base:"45px",sm:"55px",md:"60px",lg:"70px"}} fontWeight="500"  className="popins">Mufadal Sadriwala</Heading>
+                        <Text color="gray.400" fontStyle={"italic"} textAlign={"center"} fontSize={"xl"}>A Software Developer with a passion for solving problems and learning new things</Text>
                         {/* Social medias */}
                         <HStack mt="1rem" gap="0.5rem">
                             <Link  href="https://github.com/Mufadal03" isExternal><Icon h={6} w={6} as={GoMarkGithub} /></Link>

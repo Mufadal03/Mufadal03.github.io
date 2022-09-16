@@ -53,7 +53,7 @@ const Project = () => {
 
                           <Flex mt="1rem" gap="2rem">
                               <Link _hover={{textDecoration:"none"}} href="https://lovoda-by-muffi.netlify.app/" isExternal><Button size={{base:"sm",sm:"sm",md:"sm",lg:"md"}} _hover={{backgroundColor:"black",color:"white"}} variant={"outline"}>Live Site</Button></Link>
-                              <Link _hover={{textDecoration:"none"}} href="https://github.com/Mufadal03/better-water-9008/tree/main/lovoda" isExternal><Button size={{base:"sm",sm:"sm",md:"sm",lg:"md"}} _hover={{backgroundColor:"black",color:"white"}} variant={"outline"}>Github</Button></Link>
+                              <Link _hover={{textDecoration:"none"}} href="https://github.com/Mufadal03/Lovoda-Clone" isExternal><Button size={{base:"sm",sm:"sm",md:"sm",lg:"md"}} _hover={{backgroundColor:"black",color:"white"}} variant={"outline"}>Github</Button></Link>
                           </Flex>
                       </Flex>
                   </GridItem>

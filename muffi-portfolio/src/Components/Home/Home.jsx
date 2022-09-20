@@ -23,7 +23,7 @@ export const Home = () => {
         Aos.init({duration:2000})
     },[])
     return (
-        <Box id="Home" bgColor={"#171923"} w="100%" color="white">
+        <Box id="Home" overflowX={"hidden"} bgColor={"#171923"} w="100%" color="white">
             {/* main Homepage body of the content starts to align content at the center */}
             {/* <Flex border={"2px solid"}> */}
                 <Flex alignItems={"center"}  direction="column" justifyContent="center" pos={"relative"}  minH="100vh"  > 

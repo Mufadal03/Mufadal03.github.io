@@ -7,7 +7,7 @@ import { BsLinkedin } from "react-icons/bs"
 import { SiInstagram } from "react-icons/si"
 import {HiOutlineMail} from "react-icons/hi"
 import { About } from "../About/About"
-import { Skills } from "../Skills/Skills"
+import { Skills, Tools } from "../Tools/Tools"
 import Project from "../Project/Project"
 import Contact from "../Contact/Contact"
 import Aos from "aos"
@@ -15,6 +15,8 @@ import "aos/dist/aos.css"
 import { useEffect } from "react"
 import Sidebar from "../Sidebar"
 import DownArrow from "../DownArrow/DownArrow"
+import Stats from "../Stats/Stats"
+import Skill from "../Skills/Skill"
 // import { Link } from "react-scroll"
 
 
@@ -60,7 +62,9 @@ export const Home = () => {
             {/* main Homepage body of the content ends */}
             <About />
             <Project />
-            <Skills />
+            <Tools />
+            {/* <Stats /> */}
+            <Skill />
             <Contact />
         </Box>
     )

@@ -61,8 +61,8 @@ const skills = [
     },
     {
         id:12,
-        name: "JEST",
-        img:"https://miro.medium.com/max/600/1*RQwRLQ0yyCvYmRn_Nst5yg.png"
+        name: "EXPRESS",
+        img:"https://assets.website-files.com/61ca3f775a79ec5f87fcf937/6202fcdee5ee8636a145a41b_1234.png"
     }
     // {
     //     id:,
@@ -71,7 +71,7 @@ const skills = [
     // }
 ]
 
-export const Skills = () => {
+export const Tools = () => {
      useEffect(() => {
      Aos.init({duration:2000})   
     },[])
@@ -82,7 +82,7 @@ export const Skills = () => {
                 {
                     skills.map((item) => (
                         <GridItem >
-                            <VStack mb="2rem">
+                            <VStack mb="2rem" >
                                 <Image h={{base:"100px",md:"120px",lg:"150px"}} src={item.img} />
                                 <Text>{ item.name}</Text>
                             </VStack>

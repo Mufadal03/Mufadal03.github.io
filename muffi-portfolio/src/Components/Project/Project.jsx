@@ -23,7 +23,7 @@ const Project = () => {
                <Grid data-aos="slide-up" gridTemplateColumns={{ base: "repeat(1,1fr)", lg: "repeat(2,1fr)" }} gridTemplateRows={{ base:"250px auto",md:"300px auto",lg:"auto"}} p="1rem" m="5vh auto" borderRadius={"lg"} border={"2px solid"} minH={{base:"auto",lg:"400px"}}>
                   <GridItem  overflow={"hidden"}  > <video  autoPlay muted loop ><source src={Timecamp} type='video/mp4'/></video></GridItem>
                   <GridItem  textAlign="left"p={{base:"0.5rem",md:"1rem",lg:"2rem"}} >
-                      <Heading fontStyle={'oblique'}fontSize={{base:"xl",sm:"2xl",md:"3xl",lg:"4xl"}} className="popins">Timecamp's Clone </Heading>
+                      <Heading fontStyle={'oblique'}fontSize={{base:"xl",sm:"2xl",md:"3xl",lg:"4xl"}} className="popins">Timecamp Clone </Heading>
                       <Flex className='popins' direction={"column"} mt="1rem" fontSize={{ base: "sm", sm: "sm", md: "md", lg: "lg" }} gap={{ base: "0rem", sm: "0.1rem", md: "0.2rem", lg: "0.5rem" }}> 
                           <Text fontStyle={"italic"}>Full Stack App</Text>
                           <Text>- An Time and task management website</Text>
@@ -43,7 +43,7 @@ const Project = () => {
                 <Grid data-aos="slide-up" gridTemplateColumns={{ base: "repeat(1,1fr)", lg: "repeat(2,1fr)" }} gridTemplateRows={{ base:"250px auto",md:"300px auto",lg:"auto"}} p="1rem" m="5vh auto" borderRadius={"lg"} border={"2px solid"} minH={{base:"auto",lg:"400px"}}>
                   <GridItem  overflow={"hidden"}  > <video  autoPlay muted loop ><source src={Coschedule} type='video/mp4'/></video></GridItem>
                   <GridItem  textAlign="left"p={{base:"0.5rem",md:"1rem",lg:"2rem"}} >
-                      <Heading fontStyle={'oblique'}fontSize={{base:"xl",sm:"2xl",md:"3xl",lg:"4xl"}} className="popins">Coschedule's Clone</Heading>
+                      <Heading fontStyle={'oblique'}fontSize={{base:"xl",sm:"2xl",md:"3xl",lg:"4xl"}} className="popins">Coschedule Clone</Heading>
                        <Flex className='popins' direction={"column"}  mt="1rem" fontSize={{base:"sm",sm:"sm",md:"md",lg:"lg"}} gap={{base:"0rem",sm:"0.1rem",md:"0.2rem",lg:"0.5rem"}}> 
                           <Text>- An Calendary and task management website</Text>
                           <Text>- Colaborative project team of 5.</Text>

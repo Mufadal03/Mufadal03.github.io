@@ -10,7 +10,7 @@ import Nature from "../assets/Nature.mp4"
 // import Anthro from "../assets/Anthro.png"
 import Anthro from "../assets/Anthro.mp4"
 import Coschedule from "../assets/Coschedule.mp4"
-
+import Timecamp from "../assets/Timecamp.mp4"
 
 const Project = () => {
     useEffect(() => {
@@ -20,6 +20,26 @@ const Project = () => {
       <Box id="Project" pos="relative" pb="3rem">
           <Box w={{base:"90%",md:"90%",lg:"80%"}} m="5vh auto">
               <Heading fontSize={{ base: "xl", sm: "2xl", md: "3xl", lg: "4xl" }} textAlign={"left"}>  Built By Me <Text as={"span"} className="waving-hand popins">✌</Text></Heading>
+               <Grid data-aos="slide-up" gridTemplateColumns={{ base: "repeat(1,1fr)", lg: "repeat(2,1fr)" }} gridTemplateRows={{ base:"250px auto",md:"300px auto",lg:"auto"}} p="1rem" m="5vh auto" borderRadius={"lg"} border={"2px solid"} minH={{base:"auto",lg:"400px"}}>
+                  <GridItem  overflow={"hidden"}  > <video  autoPlay muted loop ><source src={Timecamp} type='video/mp4'/></video></GridItem>
+                  <GridItem  textAlign="left"p={{base:"0.5rem",md:"1rem",lg:"2rem"}} >
+                      <Heading fontStyle={'oblique'}fontSize={{base:"xl",sm:"2xl",md:"3xl",lg:"4xl"}} className="popins">Timecamp's Clone </Heading>
+                      <Flex className='popins' direction={"column"} mt="1rem" fontSize={{ base: "sm", sm: "sm", md: "md", lg: "lg" }} gap={{ base: "0rem", sm: "0.1rem", md: "0.2rem", lg: "0.5rem" }}> 
+                          <Text fontStyle={"italic"}>Full Stack App</Text>
+                          <Text>- An Time and task management website</Text>
+                          <Text>- Colaborative project team of 5.</Text>
+                          <Text>- FRONTEND : React , Chakra-UI , CSS.</Text>
+                          <Text>- BACKEND : MongoDB , Nodejs , Expressjs.</Text>
+                          <Text>- Executed in 5 days.</Text>
+
+                           <Flex mt="1rem" gap="2rem">
+                              <Link href="https://timecamp-clone.netlify.app/" isExternal _hover={{textDecoration:"none"}}> <Button size={{base:"sm",sm:"sm",md:"sm",lg:"md"}} _hover={{backgroundColor:"black",color:"white"}} variant={"outline"}>Live Site</Button></Link>
+                              <Link href="https://github.com/Mufadal03/Timecamp-Clone.git" isExternal _hover={{textDecoration:"none"}}> <Button size={{base:"sm",sm:"sm",md:"sm",lg:"md"}} _hover={{backgroundColor:"black",color:"white"}} variant={"outline"}>Github</Button></Link>
+                          </Flex>
+                      </Flex>
+                  </GridItem>
+
+              </Grid>
                 <Grid data-aos="slide-up" gridTemplateColumns={{ base: "repeat(1,1fr)", lg: "repeat(2,1fr)" }} gridTemplateRows={{ base:"250px auto",md:"300px auto",lg:"auto"}} p="1rem" m="5vh auto" borderRadius={"lg"} border={"2px solid"} minH={{base:"auto",lg:"400px"}}>
                   <GridItem  overflow={"hidden"}  > <video  autoPlay muted loop ><source src={Coschedule} type='video/mp4'/></video></GridItem>
                   <GridItem  textAlign="left"p={{base:"0.5rem",md:"1rem",lg:"2rem"}} >
@@ -27,7 +47,7 @@ const Project = () => {
                        <Flex className='popins' direction={"column"}  mt="1rem" fontSize={{base:"sm",sm:"sm",md:"md",lg:"lg"}} gap={{base:"0rem",sm:"0.1rem",md:"0.2rem",lg:"0.5rem"}}> 
                           <Text>- An Calendary and task management website</Text>
                           <Text>- Colaborative project team of 5.</Text>
-                          <Text>- Built with React,Redux and Chakra-Ui from scratch.</Text>
+                          <Text>- Built with React , Redux and Chakra-Ui from scratch.</Text>
                           <Text>- Used Redux to main states in app and to store data.</Text>
                           <Text>- Executed in 5 days.</Text>
 
@@ -80,7 +100,7 @@ const Project = () => {
                       
 
               </Grid>
-              <Grid  data-aos="slide-up" gridTemplateColumns={{ base: "repeat(1,1fr)", lg: "repeat(2,1fr)" }} gridTemplateRows={{ base:"250px auto",md:"250px auto",lg:"auto"}} p="1rem" m="5vh auto" borderRadius={"lg"} border={"2px solid"} minH={{base:"auto",lg:"400px"}}>
+              {/* <Grid  data-aos="slide-up" gridTemplateColumns={{ base: "repeat(1,1fr)", lg: "repeat(2,1fr)" }} gridTemplateRows={{ base:"250px auto",md:"250px auto",lg:"auto"}} p="1rem" m="5vh auto" borderRadius={"lg"} border={"2px solid"} minH={{base:"auto",lg:"400px"}}>
                  <GridItem overflow={"hidden"}> <video autoPlay muted loop ><source src={Anthro} type='video/mp4'/></video></GridItem>
                   <GridItem  textAlign="left"p={{base:"0.5rem",md:"1rem",lg:"2rem"}} >
                       <Heading fontStyle={'oblique'}fontSize={{base:"xl",sm:"2xl",md:"3xl",lg:"4xl"}} className="popins">Anthropologie's Clone</Heading>
@@ -98,7 +118,7 @@ const Project = () => {
                       </Flex>
                   </GridItem>
 
-              </Grid>
+              </Grid> */}
                 
           </Box>
           {/* <Flex justifyContent={"center"} >

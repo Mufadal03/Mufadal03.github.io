@@ -17,6 +17,7 @@ import Sidebar from "../Sidebar"
 import DownArrow from "../DownArrow/DownArrow"
 import Stats from "../Stats/Stats"
 import Skill from "../Skills/Skill"
+import GithubStats from "../GithubStats/GithubStats"
 // import { Link } from "react-scroll"
 
 
@@ -64,6 +65,7 @@ export const Home = () => {
             <Project />
             <Tools />
             {/* <Stats /> */}
+            <GithubStats />
             <Skill />
             <Contact />
         </Box>

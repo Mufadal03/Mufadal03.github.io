@@ -49,7 +49,7 @@ export const Home = () => {
                         </HStack>
                         {/* view resume button */}
                         <Box mt="0.5rem">
-                           <Link href="https://drive.google.com/file/d/18BTM1P9lTs-8d8Y8EeoAZzISLhSPmCkG/view?usp=sharing" isExternal _hover={{textDecoration:"none"}}><Button color={"white"} bgColor="#171923" variant={"outline"} _hover={{bgColor:"#171923",color:"white"}}>Resume</Button></Link>
+                           <Link href="https://drive.google.com/file/d/18BTM1P9lTs-8d8Y8EeoAZzISLhSPmCkG/view" isExternal _hover={{textDecoration:"none"}}><Button color={"white"} bgColor="#171923" variant={"outline"} _hover={{bgColor:"#171923",color:"white"}}>Resume</Button></Link>
                         </Box>
                         {/* view resume button */}
                     </Flex>

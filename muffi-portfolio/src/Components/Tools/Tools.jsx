@@ -4,47 +4,47 @@ import "aos/dist/aos.css"
 import { useEffect } from "react"
 const skills = [
     {
-        id:01,
+        id:1,
         name: "HTML5",
         img:"https://chiranjeev-thapliyal.vercel.app/svg/html-5.svg"
     },
     {
-        id:02,
+        id:2,
         name: "CSS 3",
         img:"https://chiranjeev-thapliyal.vercel.app/svg/css3.svg"
     },
     {
-        id:03,
+        id:3,
         name: "JAVASCRIPT",
         img:"https://chiranjeev-thapliyal.vercel.app/svg/javascript.svg"
     },
     {
-        id:04,
+        id:4,
         name: "REACT",
         img:"https://chiranjeev-thapliyal.vercel.app/svg/reactjs.svg"
     },
     {
-        id:05,
+        id:5,
         name: "REDUX",
         img:"https://chiranjeev-thapliyal.vercel.app/svg/redux.svg"
     },
     {
-        id:06,
+        id:6,
         name: "NODE JS",
         img:"https://chiranjeev-thapliyal.vercel.app/svg/nodejs.svg"
     },
     {
-        id:07,
+        id:7,
         name: "MONGO DB",
         img:"https://chiranjeev-thapliyal.vercel.app/svg/mongodb.svg"
     },
     {
-        id:08,
+        id:8,
         name: "BOOTSTRAP",
         img:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg"
     },
     {
-        id:09,
+        id:9,
         name: "CHAKRA UI",
         img:"https://avatars.githubusercontent.com/u/54212428?v=4"
     },

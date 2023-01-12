@@ -1,51 +1,50 @@
-import { Box, Flex, Grid, GridItem, Heading, Image, Text, VStack } from "@chakra-ui/react"
+import { Flex, Grid, GridItem, Heading, Image, Text, VStack } from "@chakra-ui/react"
 import Aos from "aos"
 import "aos/dist/aos.css"
 import { useEffect } from "react"
-import DownArrow from "../DownArrow/DownArrow"
 const skills = [
     {
-        id:1,
+        id:01,
         name: "HTML5",
         img:"https://chiranjeev-thapliyal.vercel.app/svg/html-5.svg"
     },
     {
-        id:2,
+        id:02,
         name: "CSS 3",
         img:"https://chiranjeev-thapliyal.vercel.app/svg/css3.svg"
     },
     {
-        id:3,
+        id:03,
         name: "JAVASCRIPT",
         img:"https://chiranjeev-thapliyal.vercel.app/svg/javascript.svg"
     },
     {
-        id:4,
+        id:04,
         name: "REACT",
         img:"https://chiranjeev-thapliyal.vercel.app/svg/reactjs.svg"
     },
     {
-        id:5,
+        id:05,
         name: "REDUX",
         img:"https://chiranjeev-thapliyal.vercel.app/svg/redux.svg"
     },
     {
-        id:6,
+        id:06,
         name: "NODE JS",
         img:"https://chiranjeev-thapliyal.vercel.app/svg/nodejs.svg"
     },
     {
-        id:7,
+        id:07,
         name: "MONGO DB",
         img:"https://chiranjeev-thapliyal.vercel.app/svg/mongodb.svg"
     },
     {
-        id:8,
+        id:08,
         name: "BOOTSTRAP",
         img:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg"
     },
     {
-        id:9,
+        id:09,
         name: "CHAKRA UI",
         img:"https://avatars.githubusercontent.com/u/54212428?v=4"
     },

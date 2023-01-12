@@ -32,10 +32,8 @@ export const Home = () => {
                 <Flex alignItems={"center"}  direction="column" justifyContent="center" pos={"relative"}  minH="100vh"  > 
                 {/* profile content starts */}
                 <Flex gap="2rem" direction={{ base: "column", md: "column", lg: "row" }} alignItems="center">
-                    {/* image */}
                     <Box className="Profile" bgImage={`url(${muffi})`} bgRepeat="no-repeat" bgSize="cover" bgPos={"center"} h={{base:"250px",md:"270px",lg:"320px"}} w={{base:"250px",md:"270px",lg:"320px"}}>
                     </Box>
-                    {/* image */}
                     {/* name summary and social media */}
                     <Flex direction={"column"} textAlign="left" alignItems={"center"} justifyContent={"center"} gap="0.5rem">
                         <Heading textAlign={{base:"center",lg:"left"}} fontSize={{base:"45px",sm:"55px",md:"60px",lg:"70px"}} fontWeight="500"  className="popins">Mufadal Sadriwala</Heading>
@@ -56,10 +54,8 @@ export const Home = () => {
                     {/* name summary and social media ends */}
                 </Flex> 
                 {/* profile content ends */}
-                {/* <Sidebar /> */}
                     <DownArrow to={"about" } />
             </Flex>
-            {/* </Flex> */}
             {/* main Homepage body of the content ends */}
             <About />
             <Project />

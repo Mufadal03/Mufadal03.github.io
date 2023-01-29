@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@300&display=swap');
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Unbounded', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -12,6 +12,12 @@ body {
   src: url("./assets/BestermindRegular.ttf");
   src: url("./assets/BestermindRegular.ttf") format("embedded-opentype"),
     url("./assets/BestermindRegular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Unbounded";
+  src: url("https: //fonts.googleapis.com/css2?family=Unbounded&display=swap");
+  src: url("https: //fonts.googleapis.com/css2?family=Unbounded&display=swap") format("embedded-opentype"),
+    url("https: //fonts.googleapis.com/css2?family=Unbounded&display=swap") format("truetype");
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -95,4 +101,7 @@ code {
 
 .drawer{
   background-color: transparent;
+}
+.myFont{
+  font-family: 'Unbounded', cursive;
 }

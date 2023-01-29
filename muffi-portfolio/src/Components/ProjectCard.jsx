@@ -18,19 +18,19 @@ const ProjectCard = ({title, App, techStack, executedIn, type, about, live, GitH
                   <MyTag el={App} />
               </Flex>
               {/* <Text>{ type} Project make tag</Text> */}
-              <Heading fontWeight={"md"} textDecorationLine="underline" textDecorationStyle={"double"} fontSize={{base:"2xl",md:"3xl",lg:"4xl"}}fontFamily="cursive">{title}</Heading>
+              <Heading fontWeight={"md"} textDecorationLine="underline" textDecorationStyle={"double"} fontSize={{base:"xl",md:"2xl",lg:"3xl"}} fontFamily={"Unbounded"}>{title}</Heading>
               {
-                  about.map((el,i) => <Text key={i} fontSize={{base:"md",lg:"lg"}} fontFamily="cursive">* {el}</Text>)
+                  about.map((el,i) => <Text key={i} fontSize={{base:"sm",lg:"md"}}  fontFamily={"Unbounded"}>* {el}</Text>)
               }
-              <Text fontSize={{base:"md",lg:"lg"}} fontFamily="cursive">Executed in {executedIn} Days{type==="Collaborative"?" with the team of 5 members":"" }</Text>
+              <Text fontSize={{base:"sm",lg:"md"}}  fontFamily={"Unbounded"}>Executed in {executedIn} Days{type==="Collaborative"?" with the team of 5 members":"" }</Text>
               <Flex gap="1rem" flexWrap={'wrap'}>
                   {
                       techStack.map((el, i) => (<MyTag key={ i} el={ el} />))
                   }
               </Flex>
               <Flex mt="1rem" gap='2rem'>
-                  <Link isExternal href={live}><Button fontFamily={"cursive"} p="1rem 2rem" color='#0b111e' bgColor="#77BEF8" _hover={{ bgColor: "#77BEF8" }} borderRadius="none" size={{base:"sm",lg:"md"}}>Live Site</Button></Link>
-                  <Link isExternal href={GitHub}><Button fontFamily={"cursive"} borderRadius="none" p="1rem 2rem" color="#77BEF8" border={"1px solid #77BEF8"} bgColor='#0b111e'size={{base:"sm",lg:"md"}}  _hover={{bgColor:'#0b111e'}}>GitHub</Button></Link>
+                  <Link isExternal href={live}><Button  fontFamily={"Unbounded"} p="1rem 2rem" color='#0b111e' bgColor="#77BEF8" _hover={{ bgColor: "#77BEF8" }} borderRadius="none" size={{base:"sm",lg:"md"}}>Live Site</Button></Link>
+                  <Link isExternal href={GitHub}><Button  fontFamily={"Unbounded"} borderRadius="none" p="1rem 2rem" color="#77BEF8" border={"1px solid #77BEF8"} bgColor='#0b111e'size={{base:"sm",lg:"md"}}  _hover={{bgColor:'#0b111e'}}>GitHub</Button></Link>
 
               </Flex>
           </Flex>

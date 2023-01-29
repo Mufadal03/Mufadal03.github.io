@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.1c58fb49.css",
-    "main.js": "/static/js/main.3a055ee0.js",
-    "static/js/787.62882442.chunk.js": "/static/js/787.62882442.chunk.js",
-    "static/media/Anthro.mp4": "/static/media/Anthro.2ac054da8dbf3a86b962.mp4",
+    "main.css": "/static/css/main.60231e5b.css",
+    "main.js": "/static/js/main.5e4bdc24.js",
     "static/media/Nature.mp4": "/static/media/Nature.09da197498ebbf4cc566.mp4",
     "static/media/Coschedule.mp4": "/static/media/Coschedule.314dd9ca0dccbb8b464a.mp4",
     "static/media/Timecamp.mp4": "/static/media/Timecamp.2f832ffb2ec36d6986e1.mp4",
     "static/media/Lovoda.mp4": "/static/media/Lovoda.a201154e4a46cd5283a2.mp4",
-    "static/media/My_Photo.jpg": "/static/media/My_Photo.ba2e6170c8a447488485.jpg",
+    "static/media/Profile.jpg": "/static/media/Profile.edff86a2caeeee38a9e5.jpg",
+    "static/media/BestermindRegular.ttf": "/static/media/BestermindRegular.e58a192233afb30a6a59.ttf",
+    "static/media/about.png": "/static/media/about.96316bca8363bb54e131.png",
+    "static/media/aboutSVG.svg": "/static/media/aboutSVG.32956c0fd5ce754140251267dfbfeb66.svg",
     "index.html": "/index.html",
-    "main.1c58fb49.css.map": "/static/css/main.1c58fb49.css.map",
-    "main.3a055ee0.js.map": "/static/js/main.3a055ee0.js.map",
-    "787.62882442.chunk.js.map": "/static/js/787.62882442.chunk.js.map"
+    "main.60231e5b.css.map": "/static/css/main.60231e5b.css.map",
+    "main.5e4bdc24.js.map": "/static/js/main.5e4bdc24.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c58fb49.css",
-    "static/js/main.3a055ee0.js"
+    "static/css/main.60231e5b.css",
+    "static/js/main.5e4bdc24.js"
   ]
 }
